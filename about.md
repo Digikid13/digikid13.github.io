@@ -3,12 +3,9 @@ layout: page
 title: About
 ---
 
-Some information about you!
+I am currently attending [Hack Reactor](www.hackreactor.com).
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Digikid13@gmail.com](mailto:digikid13@gmail.com)
