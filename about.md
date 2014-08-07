@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I am currently attending [Hack Reactor](www.hackreactor.com).
+I am currently attending [Hack Reactor](http://www.hackreactor.com).
 
 
 ### Contact me
