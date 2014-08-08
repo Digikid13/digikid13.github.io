@@ -52,6 +52,9 @@ Places I wouldn't use them are for 1 time things like creating objects with meth
     var Board = {
       location: '/games/Diablo_3/',
       user: cookies.get('user'),
-      
+      render: $(.form).html(/* form data*/),
+      addPost: function () {}
+      /* etc etc*/
     }
-    
+
+Generally I'll only use classes to work with multiple objects that have the same functionality, and I expect impact dynamically in the app.
