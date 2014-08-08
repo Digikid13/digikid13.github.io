@@ -1,10 +1,32 @@
 ---
 layout: post
-title: You're up and running!
+title: Creating and using Objects w/ methods
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
+So today we are going to talk about Object creation and the different ways we can add methods to them.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+We have a few ways to do this:
+###### Static creation
+```javascript
+var car = {
+  speed: 200,
+  loc: Math.random()*5,
+  drive: function() {
+    this.loc += this.speed;
+  }
+}
+```
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+###### Functional Style
+```javascript
+function createCar(speed) {
+  var car = {};
+  car.loc = Math.random()*5;
+  car.speed = speed;
+  car.drive = function() {
+    this.loc += this.speed;
+  }
+  return car;
+}
+```
+
