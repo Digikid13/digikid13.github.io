@@ -5,11 +5,11 @@ title: Classes and You
 
 For today's post I'm going to be going over classes and when I do and don't use them.
 
-####So what are classes?
+##So what are classes?
 
 Classes are objects that contain data and have added on methods used to manipulate that data.
 
-#####E.g.
+###E.g.
 
     function Class(speed, area) {
       this.speed = speed;
