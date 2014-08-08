@@ -7,10 +7,7 @@ So today we are going to talk about Object creation and the different ways we ca
 
 We have a few ways to do this:
 
-###### Static creation
-
-
-
+##### Static creation
     var car = {
       speed: 200,
       loc: Math.random()*5,
@@ -20,16 +17,13 @@ We have a few ways to do this:
     }
 
 
-###### Functional Style
-```javascript
-function createCar(speed) {
-  var car = {};
-  car.loc = Math.random()*5;
-  car.speed = speed;
-  car.drive = function() {
-    this.loc += this.speed;
-  }
-  return car;
-}
-```
-
+##### Functional Style
+    function createCar(speed) {
+      var car = {};
+      car.loc = Math.random()*5;
+      car.speed = speed;
+      car.drive = function() {
+        this.loc += this.speed;
+      }
+      return car;
+    }
