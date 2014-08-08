@@ -9,11 +9,17 @@ We have a few ways to do this:
 ###### Static creation
 ```javascript
 var car = {
+
   speed: 200,
+  
   loc: Math.random()*5,
+  
   drive: function() {
+  
     this.loc += this.speed;
+    
   }
+  
 }
 ```
 
