@@ -47,4 +47,11 @@ You can also use them to create dom nodes:
       this.friend = !this.friend;
     }
 
-Places I wouldn't use them are for 1 time things like creating objects with methods that aren't user inflenced
+Places I wouldn't use them are for 1 time things like creating objects with methods that aren't user inflenced. An example would be to store all of the functions that help run the app in an object to help make maintenance easier.
+
+    var Board = {
+      location: '/games/Diablo_3/',
+      user: cookies.get('user'),
+      
+    }
+    
