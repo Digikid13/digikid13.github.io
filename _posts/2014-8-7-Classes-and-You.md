@@ -1,29 +1,25 @@
 ---
 layout: post
-title: Creating and using Objects w/ methods
+title: Classes and You
 ---
 
-So today we are going to talk about Object creation and the different ways we can add methods to them.
+For today's post I'm going to be going over classes and when I do and don't use them.
 
-We have a few ways to do this:
+####So what are classes?
 
-##### Static creation
-    var car = {
-      speed: 200,
-      loc: Math.random()*5,
-      drive: function() {
-        this.loc += this.speed;
-      }
+Classes are objects that contain data and have added on methods used to manipulate that data.
+
+#####E.g.
+
+    function Class(speed, area) {
+      this.speed = speed;
+      this.loc = Math.random()*area;
     }
 
-
-##### Functional Style
-    function createCar(speed) {
-      var car = {};
-      car.loc = Math.random()*5;
-      car.speed = speed;
-      car.drive = function() {
-        this.loc += this.speed;
-      }
-      return car;
+    Class.prototype.move = function() {
+      this.loc += this.speed;
     }
+
+    car = new Class(20, 500);
+
+Classes have the ability to create objects with data and methods as many times as the programmer wishes.
