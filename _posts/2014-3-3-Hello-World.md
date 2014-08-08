@@ -6,6 +6,7 @@ title: Creating and using Objects w/ methods
 So today we are going to talk about Object creation and the different ways we can add methods to them.
 
 We have a few ways to do this:
+
 ###### Static creation
 ```javascript
 var car = {
