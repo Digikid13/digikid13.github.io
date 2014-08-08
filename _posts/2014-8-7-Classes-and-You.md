@@ -33,7 +33,7 @@ Both of these cars do not share properties. `car.speed === 20` while `car2.speed
 
 Places I would use a class would be when I plan on creating multiple objects that I want to give initial values and methods that use those values. E.g. The example above, it can be used to create multiple cars in a racetrack.
 
-You can also use them to create dom nodes:
+Another example use would be to use them to create dom nodes on the fly:
 
     function Message(message, user) {
       this.node = $('<div class="message"></div>')
