@@ -8,7 +8,9 @@ So today we are going to talk about Object creation and the different ways we ca
 We have a few ways to do this:
 
 ###### Static creation
+
 ```javascript
+
 var car = {
 
   speed: 200,
@@ -22,6 +24,7 @@ var car = {
   }
   
 }
+
 ```
 
 ###### Functional Style
