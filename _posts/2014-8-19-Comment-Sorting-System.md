@@ -17,27 +17,23 @@ Say we have a comment tree that looks like this for example:
         comment: 'Oh wow this is good.',
         votes: '50',
         children: [
-        node: {
-          comment: 'Yea I can see how this can be helpful.',
-          votes: '34',
-          children: []
-
-        }
+            node: {
+              comment: 'Yea I can see how this can be helpful.',
+              votes: '34',
+              children: []
+            }
         ]
-
       },
       node: {
         comment: '....',
         votes: '100',
         children: [
-        node: {
-          comment: 'This really got 100 upvotes?!',
-          votes: '10',
-          children: []
-
-        }
+            node: {
+              comment: 'This really got 100 upvotes?!',
+              votes: '10',
+              children: []
+            }
         ]
-
       }
      ]
 
