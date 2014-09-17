@@ -29,3 +29,5 @@ Here this results in an error, g is not defined. On the line ```var f = function
 
 This is going to return 1 for one simple reason, delete only works on objects to get rid of a property. If you had the object ```var x = {a: 1};``` and typed ```delete x.a```
 ```x.a === undefined``` would be true.
+
+I will go over more questions in a future post.
