@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Perfection Kills: Javascript Hell Part 1
+title: Perfection Kills - Javascript Hell Part 1
 ---
 
 I came across this interesting [javascript quiz](http://perfectionkills.com/javascript-quiz/) (and did terrible) and wanted to go over exactly how all the questions work. This part is going to go over questions 1 - 4.
